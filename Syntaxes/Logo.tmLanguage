@@ -6,10 +6,6 @@
 	<string>Roughed out by Paul Bissex &lt;http://e-scribe.com/news/&gt;</string>
 	<key>fileTypes</key>
 	<array/>
-	<key>foldingStartMarker</key>
-	<string>^to \w+</string>
-	<key>foldingStopMarker</key>
-	<string>^end$</string>
 	<key>keyEquivalent</key>
 	<string>^~L</string>
 	<key>name</key>
