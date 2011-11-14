@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env bash
+
+"${TM_LOGO:-logo}" "$TM_FILEPATH"
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>Run</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>newWindow</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>logo</string>
+			<key>locations</key>
+			<array>
+				<string>/opt/local/bin/logo</string>
+				<string>/usr/local/bin/logo</string>
+			</array>
+			<key>variable</key>
+			<string>TM_LOGO</string>
+		</dict>
+	</array>
+	<key>scope</key>
+	<string>source.logo</string>
+	<key>uuid</key>
+	<string>D03092A5-DED1-4527-9FF0-00E7EC10A0E0</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
