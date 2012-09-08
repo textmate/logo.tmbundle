@@ -39,6 +39,8 @@
 	</array>
 	<key>scope</key>
 	<string>source.logo</string>
+	<key>semanticClass</key>
+	<string>process.run.script.logo</string>
 	<key>uuid</key>
 	<string>D03092A5-DED1-4527-9FF0-00E7EC10A0E0</string>
 	<key>version</key>
